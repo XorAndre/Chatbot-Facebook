@@ -3,6 +3,7 @@
 <br>
  Neste tutorial ensinarei como criar um Chatbot nativo para Facebook. Alguns detalhes são importantes para que você possa fazer o projeto 100%, são eles: ter o NodeJs e um editor de código instalados em sua máquina. O restante baixaremos no decorrer do tutorial.
 <br>
+
 ### Primeiro passo 
 
 <br>
@@ -14,6 +15,7 @@
 <br>
  No segundo passo escreva no terminal o comando: npm init, este comando criará um package.json. Após digitado aperte enter e responda as perguntas feitas.
 <br>
+
 ### Terceiro Passo
 
 <br>
@@ -23,6 +25,7 @@
 npm install express request body-parser --save
 
 <br>
+
 ### Quarto passo começando o código 
 
 <br>
@@ -40,7 +43,10 @@ app.set('port', (process.env.PORT || 3000))
 <br>
 Os códigos são resposáveis pela inclusão dos pacotes e pela porta do servidor local onde irá rodar nosso teste, que no caso nada mais é que a porta 3000
 <br>
+
 ### Quinto passo 
+
+<br>
 Precissamos agora processar os dados e para isso iremos fazer o seguinte: 
 <br>
 
