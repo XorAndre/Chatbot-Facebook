@@ -4,12 +4,19 @@
  Neste tutorial ensinarei como criar um Chatbot nativo para Facebook. Alguns detalhes são importantes para que você possa fazer o projeto 100%, são eles: ter o NodeJs e um editor de código instalados em sua máquina. O restante baixaremos no decorrer do tutorial.
 <br>
 ### Primeiro passo 
+
+<br>
  Crie um diretório com nome chatbot, feito isso abra o diretório no terminal com o seguinte comando: cd caminhododiretorio/chatbot/.
-<br> 
+<br>
+
 ### Segundo Passo
+
+<br>
  No segundo passo escreva no terminal o comando: npm init, este comando criará um package.json. Após digitado aperte enter e responda as perguntas feitas.
 <br>
 ### Terceiro Passo
+
+<br>
  Agora baixaremos alguns pacotes que colocarão nossa aplicação em funcionamento são eles: Express, body-parser e request. O comando para baixar é: 
 <br>
 
@@ -17,6 +24,8 @@ npm install express request body-parser --save
 
 <br>
 ### Quarto passo começando o código 
+
+<br>
 Crie um arquivo index.js e nele insira os seguintes códigos:
 <br>
 
