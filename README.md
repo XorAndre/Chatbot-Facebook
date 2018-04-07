@@ -13,22 +13,31 @@
  Agora baixaremos alguns pacotes que colocarão nossa aplicação em funcionamento são eles: Express, body-parser e request. O comando para baixar é: 
 <br>
 
-<script src="https://gist.github.com/XorAndre/2c881c26f55aaa97c7c88fdf1b89d8e3.js"></script>
+npm install express request body-parser --save
 
 <br>
 ### Quarto passo começando o código 
 Crie um arquivo index.js e nele insira os seguintes códigos:
 <br>
 
-<script src="https://gist.github.com/XorAndre/9e6781754513203b0f58fc5a173fab11.js"></script>
-
+```js
+'use strict'
+const express =  require('express')
+const bodyParser = require('body-parser')
+const request = require('request')
+const app = express()
+app.set('port', (process.env.PORT || 3000))
+````
 <br>
 Os códigos são resposáveis pela inclusão dos pacotes e pela porta do servidor local onde irá rodar nosso teste, que no caso nada mais é que a porta 3000
 <br>
 ### Quinto passo 
 Precissamos agora processar os dados e para isso iremos fazer o seguinte: 
 <br>
-
-<script src="https://gist.github.com/XorAndre/9d8f00ce7910b6fe552d6ca43ac85f15.js"></script>
+```js
+// Processo de dados
+app.use(bodyParser.urlencoded({extended: false}))
+app.use(bodyParser.json())
+```
 
 <br>
