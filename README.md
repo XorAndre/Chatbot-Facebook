@@ -11,6 +11,7 @@
 <br>
 ### Terceiro Passo
  Agora baixaremos alguns pacotes que colocarão nossa aplicação em funcionamento são eles: Express, body-parser e request. O comando para baixar é: 
+<br>
 
 <script src="https://gist.github.com/XorAndre/2c881c26f55aaa97c7c88fdf1b89d8e3.js"></script>
 
@@ -18,6 +19,7 @@
 ### Quarto passo começando o código 
 Crie um arquivo index.js e nele insira os seguintes códigos:
 <br>
+
 <script src="https://gist.github.com/XorAndre/9e6781754513203b0f58fc5a173fab11.js"></script>
 
 <br>
@@ -25,6 +27,7 @@ Os códigos são resposáveis pela inclusão dos pacotes e pela porta do servido
 <br>
 ### Quinto passo 
 Precissamos agora processar os dados e para isso iremos fazer o seguinte: 
+<br>
 
 <script src="https://gist.github.com/XorAndre/9d8f00ce7910b6fe552d6ca43ac85f15.js"></script>
 
