@@ -56,3 +56,18 @@ app.use(bodyParser.json())
 ```
 
 <br>
+
+### Sexto Passo
+
+<br>
+Precisamos agora definirmos nossa rota e mensagem de exibição 
+
+```js
+// Rotas
+app.get('/', function(req, res) {
+	res.send("Olá, eu sou um bot!")
+})
+let token = ""
+```
+
+
