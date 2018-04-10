@@ -1,0 +1,30 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "Chatbot Facebook",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XorAndre/Chatbot-Facebook.git"
+  },
+  "keywords": [
+    "chatbot",
+    "com",
+    "NodeJS"
+  ],
+  "author": "Andre Rodrigues (xor)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XorAndre/Chatbot-Facebook/issues"
+  },
+  "homepage": "https://github.com/XorAndre/Chatbot-Facebook#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "request": "^2.85.0"
+  }
+}
